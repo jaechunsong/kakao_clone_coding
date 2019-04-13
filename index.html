@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css
+"> <!--폰트 어썸 아이콘 연결합니다-->
+  <title>Friends</title>
+  <!-- 타이틀 제목-->
+</head>
+<body>
+  <header>
+    <div class="header_top">
+      <!--탑 헤더의 칼럼 클래스를 생성한다.-->
+      <div class="header_column">
+        <i class="fa fa-plane"></i>
+        <i class="fa fa-wifi"></i>
+      </div>
+      <!--첫번쨰 컬럼에 비행기,와이파이 아이콘을 등장시킵니다.-->
+      <div class="header_column">
+          <span class="header_time">18:38</span>
+      </div>
+      <!--두번째 컬럼에 시간을 표시합니다-->
+      <div class="header_column">
+        <i class="fa fa-moon-o"></i>
+        <i class="fa fa-bluetooth"></i>
+        <span class="header_bettery">66% <i class="fa fa-battery-three-quarters"></i>
+      </div>
+      <!--세번째 컬럼에 낮밤표시, 블루투스표시, 베터리를 표시합니다-->
+    </div>
+      <div class="header_bottom">
+     <!--탑헤더 밑 하단 헤더에 생성할 칼럼-->
+       <div class="header_column">
+         <span class="header_text">Manage</span>
+        <!--첫번째 칼럼에 매니저 텍스트를 생성합니다-->
+       </div>
+         <div class="header_column">
+         <span class="header_text">Friends<span class="header_number">1</span></span>
+         <!--두번째 하단에 프렌즈 텍스트를 생성합니다.-->
+         </div>
+          <div class="header_column">
+            <i class="fa fa-cog fa-lg"></i>
+        <!--톱니바퀴 아이콘을 생성합니다.-->
+          </div>
+       </div>
+    </header>
+    <main class="friends">
+      <!--이 HTML의 메인 을 생성합니다.-->
+    <div class="search-bar">
+  <i class="fa fa-search"></i>
+      <input type="text" placeholder="Find friends, chats, Plus friends">
+      </div>
+      <!--서치 아이콘 창과 인풋창 생성 후 명령어 안에 기본 텍스트를 기재합니다.-->
+      <section class="friends__section">
+        <header class="friends__section-header">
+          <h6 class="friends__section-title">My profile</h6>
+      <!--구역을 나눈 후 프로필 텍스트를 생성합니다-->
+        </header>
+        <div class="friends__section-rows">
+          <div class="friends__section-row">
+            <div class="friends__section-column">
+              <img src="" alt="">
+              <span class="friends__section-name">Nicolas</span>
+            </div>
+          </div>
+          <!--프로필 밑 칼럼에 내 프로필과 사진을 추가합니다.-->
+        </div>
+        <!--바로 추가 칼럼에 상태메세지를 추가합니다-->
+        <div class="friends__section-row">
+          <img src="" alt="">
+          <span class="friends__section-name">Friends' Names Display</span>
+        </div>
+        </section>
+        <!--하단에 안내창을 추가하고 섹션구분을 완료합니다-->
+      <section>
+        <section class="friends__section">
+          <header class="friends__section-header">
+            <h6 class="friends__section-title">Friends</h6>
+          </header>
+          <div class="friends__section-rows">
+            <div class="friends__section-row">
+              <div class="friends__section-column">
+                <img src="iamges/avatar.jpg" alt="">
+                <span class="friends__section-name">Guzel</span>
+              </div>
+            </div>
+            <span class="friends__section-tagline">
+              Life is short. so live ur live
+            </span>
+          </div>
+        </section>
+      </section>
+      <!--친구 섹션을 생성 후 그림과 상태메세지 텍스트를 추가합니다..-->
+    </main>
+
+    <nav class="tab-bar">
+      <a href="index.html" class="tab-bar__tab tab-bar__tab--selected">
+        <i class="fa fa-user"></i>
+        <span class="tab-bar__title">Friends</span>
+      </a>
+      <a href="chats.html" class="tab-bar__tab" >
+        <i class="fa fa-comment"></i>
+          <span class="tab-bar__title">Chats</span>
+      </a>
+      <a href="find.html" class="tab-bar__tab">
+    <i class="fa fa-search"></i>
+    <span class="tab-bar__title">Find</span>
+      </a>
+      <a href="more.html" class="tab-bar__tab">
+<i class="fa fa-ellipsis-h"></i>
+<span class="tab-bar__title">More</span>
+      </a>
+</nav>
+<!--하단에 다른 페이지로 이동할 수 있는 링크와 아이콘을 생성합니다-->
+</body>
+</html>

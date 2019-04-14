@@ -8,9 +8,11 @@
 "> <!--폰트 어썸 아이콘 연결합니다-->
   <title>More</title>
   <!-- 타이틀 제목-->
+  <link rel="stylesheet" href="CSS/style.css">
+
 </head>
 <body>
-  <header>
+  <header class="top-header">
     <div class="header_top">
       <!--탑 헤더의 칼럼 클래스를 생성한다.-->
       <div class="header_column">
@@ -31,7 +33,7 @@
     </div>
       <div class="header_bottom">
          <div class="header_column">
-         <span class="header_text">More</span>
+         <span class="header_text-center">More</span>
          </div>
          <div class="header_column">
            <i class="fa fa-cog fa-lg"></i>
@@ -41,7 +43,7 @@
     <main class="more">
       <header class="more_header">
         <div class="more-header_column">
-          <img src="iamges/avatar.jpg" alt="">
+          <img src="iamges/profilepic.jpg">
             <div class="more-header_info">
               <h3 class="more-header_title">
                 Nicolas
@@ -50,7 +52,7 @@
                 gandalfzzing@naver.com.
               </span>
         </div>
-        <i class="fa fa-comment-o fa-2x"></i>
+              <i class="fa fa-comment-o fa-2x"></i>
       </div>
       </header>
       <!--메인을 생성한 후 나의 정보를 출력하는 아이콘과 텍스트를 만듭니다-->
@@ -117,16 +119,16 @@
         </div>
       </section>
       <!--섹션을 추가하고 헤더에 간단한 아이콘과 텍스트를 추가한 뒤 여덟개의 칼럼에 텍스트와 아이콘을 추가합니다.-->
-      <section class="more_option">
-          <div class="more_option">
+      <section class="more_links">
+          <div class="more_link">
             <img src="iamges/1.jpg" alt="" class="more_options-img">
             <span class="more_options-title">Kakao Story</span>
           </div>
-          <div class="more_option">
+          <div class="more_link">
             <img src="iamges/2.jpg" alt="" class="more_options-img">
             <span class="more_options-title">Path</span>
           </div>
-          <div class="more_option">
+          <div class="more_link">
             <img src="iamges/3.jpg" alt="" class="more_options-img">
             <span class="more_options-title">Kakao Friends</span>
           </div>
@@ -135,25 +137,21 @@
     <!--섹션을 추가하고 세개의 이미지와 텍스트를 추가합니다-->
     <nav class="tab-bar">
       <a href="index.html" class="tab-bar__tab">
-
-        <i class="fa fa-user"></i>
+        <i class="fa fa-user fa-2x"></i>
         <span class="tab-bar__title">Friends</span>
       </a>
       <a href="chats.html" class="tab-bar__tab" >
-
-        <i class="fa fa-comment"></i>
+        <i class="fa fa-comment fa-2x"></i>
           <span class="tab-bar__title">Chats</span>
       </a>
       <a href="find.html" class="tab-bar__tab">
-
-    <i class="fa fa-search"></i>
+    <i class="fa fa-search fa-2x"></i>
     <span class="tab-bar__title">Find</span>
       </a>
-      <a href="more.html" class="tab-bar__tab tab-bar__tab--selected">
-<i class="fa fa-ellipsis-h"></i>
+      <a href="more.html" class="tab-bar__tab-tab-bar__tab--selected">
+<i class="fa fa-ellipsis-h fa-2x"></i>
 <span class="tab-bar__title">More</span>
       </a>
-
 </nav>
 
 </body>

@@ -8,9 +8,11 @@
 "> <!--폰트 어썸 아이콘 연결합니다-->
   <title>Chats</title>
   <!-- 타이틀 제목-->
+  <link rel="stylesheet" href="CSS/style.css">
+
 </head>
 <body>
-  <header>
+  <header class="top-header">
     <div class="header_top">
       <!--탑 헤더의 칼럼 클래스를 생성한다.-->
       <div class="header_column">
@@ -30,11 +32,11 @@
       <!--세번째 컬럼에 낮밤표시, 블루투스표시, 베터리를 표시합니다-->
     </div>
       <div class="header_bottom">
-         <div class="header_column">
+         <div class="header_column-edit">
          <span class="header_text">Edit </span>
          </div>
          <div class="header_column">
-         <span class="header_text">Chats <i class="fa fa-caret-down"></i></span>
+         <span class="header_text-center">Chats <i class="fa fa-caret-down"></i></span>
        </div>
        <!--탑 헤더 밑 하단 헤더에 에딧과 챗스 텍스트를 추가하고 아이콘 하나를 추가합니다-->
     </header>
@@ -75,28 +77,24 @@
         </div>
       </main>
       <!--Chats의 메인을 생성하고 채팅 리스트와 사진, 아이콘을 생성합니다.-->
-    <nav class="tab-bar">
-      <a href="index.html" class="tab-bar__tab">
-
-        <i class="fa fa-user"></i>
-        <span class="tab-bar__title">Friends</span>
-      </a>
-      <a href="chats.html" class="tab-bar__tab tab-bar__tab--selected" >
-
-        <i class="fa fa-comment"></i>
-          <span class="tab-bar__title">Chats</span>
-      </a>
-      <a href="find.html" class="tab-bar__tab">
-
-    <i class="fa fa-search"></i>
-    <span class="tab-bar__title">Find</span>
-      </a>
-      <a href="more.html" class="tab-bar__tab">
-<i class="fa fa-ellipsis-h"></i>
-<span class="tab-bar__title">More</span>
-      </a>
-
-</nav>
+      <nav class="tab-bar">
+        <a href="index.html" class="tab-bar__tab">
+          <i class="fa fa-user fa-2x"></i>
+          <span class="tab-bar__title">Friends</span>
+        </a>
+        <a href="chats.html" class="tab-bar__tab-tab-bar__tab--selected" >
+          <i class="fa fa-comment fa-2x"></i>
+            <span class="tab-bar__title">Chats</span>
+        </a>
+        <a href="find.html" class="tab-bar__tab">
+      <i class="fa fa-search fa-2x"></i>
+      <span class="tab-bar__title">Find</span>
+        </a>
+        <a href="more.html" class="tab-bar__tab">
+  <i class="fa fa-ellipsis-h fa-2x"></i>
+  <span class="tab-bar__title">More</span>
+        </a>
+  </nav>
 <!--하단 연결 링크-->
 </body>
 </html>

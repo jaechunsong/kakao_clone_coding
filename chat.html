@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="CSS/style.css">
 
 </head>
-<body>
-  <header class="top-header">
+<body class="body-chat">
+  <header class="top-header chat-header">
     <div class="header_top">
       <!--탑 헤더의 칼럼 클래스를 생성한다.-->
       <div class="header_column">
@@ -32,18 +32,19 @@
       <!--세번째 컬럼에 낮밤표시, 블루투스표시, 베터리를 표시합니다-->
     </div>
       <div class="header_bottom">
-       <div class="header_column">
+       <div class="header_column-chat">
          <a href="chats.html">
          <i class="fa fa-chevron-left fa-lg"></i>
          </a>
-       <div class="header_column">
-         <span class="header_text">LYNN</span>
+         </div>
+       <div class="header_column-chat">
+         <span class="header_text">Guzel</span>
        </div>
-         <div class="header_column">
+         <div class="header_column-chat">
             <i class="fa fa-search"></i>
             <i class="fa fa-bars"></i>
            </div>
-         </div>
+
        </div>
     </header>
   <main class="chat">
@@ -59,21 +60,23 @@
       <div class="chat_message-center">
         <h3 class="chat_message-user">Guzel</h3>
         <span class="chat_message-text">And This is answer</span>
-      </div>
       <span class="chat_message-time">19:35</span>
     </div>
+          </div>
   </main>
   <!--나의 메세지와 친구의 사진과 메세지를 추가합니다.-->
   <div class="type_meesage">
-    <i class="fa fa-plus fa-2x"></i>
+    <i class="fa fa-plus fa-lg"></i>
     <div class="type_meesage-input">
       <input type="text">
     <i class="fa fa-smile-o"></i>
     <span class="record-message">
-      <i class="fa fa-microphone"></i>
+      <i class="fa fa-microphone fa-lg"></i>
     </span>
     </div>
   </div>
+  <div class="big-screen-text">
+    <span>Plase make ur screen small</span>
 </body>
 </html>
 <!--전송할 입력창과 부가 아이콘들을 생성합니다-->
